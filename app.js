@@ -3,30 +3,18 @@
 //count the number of occurrences of the specified letter within the string.
 //Sample arguments : "w2resource.com" , "o";Expected output: 2.
 
-/Erti xerxi
+//First way to solve this task.
 
-// function countOccurrences(string,char) {
-//     let counter =0;
-//     for(i=0; i < string.length; i++){
-//         if(string[i] === char) {
-//             counter++
-//         }
+// function countOccurrences(str, char) {
+//   let count = 0;
+//   for (i = 0; i < str.length; i++) {
+//     if (str[i] === char) {
+//       count++;
 //     }
-//     return counter
+//   }
+//   return count;
 // }
 
-// console.log(countOccurrences("w3recources.com", "o"))
+// console.log(countOccurrences("w3recources.com", "o"));
 
-//Meore xerxi
-
-// function countOccurrences(string,char) {
-//     let answer = string.split("").reduce((counter, currentValue) =>{
-//         if(currentValue === char) {
-//             return ++counter
-//         }
-//         return counter
-//     }, 0)
-//     return answer
-// }
-
-// console.log(countOccurrences("w3recources.com", "o"))
+//Another way to solve this task.
