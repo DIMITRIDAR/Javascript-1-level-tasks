@@ -137,4 +137,14 @@
 // console.log(convertToUpperCase("the quick brown fox"));
 
 //Task 6
-//In this task we have to
+//In this task we have to write a JavaScript function that returns a string that has letters in alphabetical order.
+//Example string : 'webmaster'.
+//Expected Output : 'abeemrstw'.
+
+function alphabeticalOrder(str) {
+  let sorted = str.toLowerCase().split("").sort().join("");
+
+  return sorted;
+}
+
+console.log(alphabeticalOrder("webmaster"));
