@@ -1,3 +1,5 @@
+//Functions !!!
+
 //Task 1
 //In this task we have to write a JavaScript function that accepts two arguments, a string and a letter and the function will
 //count the number of occurrences of the specified letter within the string.
