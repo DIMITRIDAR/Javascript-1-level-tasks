@@ -29,4 +29,21 @@
 //   return answer;
 // }
 
-// console.log(countOccurrences("w3recources.com", "o"));
+// console.log(countOccurrences("w3resources.com", "o"));
+
+//Task 2
+//In this task we have to write a JavaScript function to apply the Bubble Sort algorithm.
+//Sample array : [12, 345, 4, 546, 122, 84, 98, 64, 9, 1, 3223, 455, 23, 234, 213]
+//Expected output : [3223, 546, 455, 345, 234, 213, 122, 98, 84, 64, 23, 12, 9, 4, 1]
+
+//One way to solve task 2.
+
+// function bubbleSortAlgorithm(arr) {
+//   return arr.sort((a, b) => b - a);
+// }
+
+// console.log(
+//   bubbleSortAlgorithm([
+//     12, 345, 4, 546, 122, 84, 98, 64, 9, 1, 3223, 455, 23, 234, 213,
+//   ])
+// );
