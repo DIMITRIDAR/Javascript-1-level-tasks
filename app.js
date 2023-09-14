@@ -107,3 +107,19 @@
 // }
 
 // console.log(findExactArrays([1, 2, 3, 4, 5]));
+
+//Task 5
+//In this task we have to write a JavaScript function that accepts a string as a parameter and converts the first letter of
+//each word into upper case.
+//Example string: "the quick brown fox".
+//Expected output:"The Quick Brown Fox".
+
+// function convertToUpperCase(str) {
+//   let splittedStr = str.split(" ");
+//   for (i = 0; i < splittedStr.length; i++) {
+//     splittedStr[i] = splittedStr[i][0].toUpperCase() + splittedStr[i].slice(1);
+//   }
+//   return splittedStr.join(" ");
+// }
+
+// console.log(convertToUpperCase("the quick brown fox"));
