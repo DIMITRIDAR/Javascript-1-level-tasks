@@ -18,3 +18,15 @@
 // console.log(countOccurrences("w3recources.com", "o"));
 
 //Another way to solve this task.
+
+// function countOccurrences(string, char) {
+//   let answer = string.split("").reduce((counter, currentValue) => {
+//     if (currentValue === char) {
+//       return ++counter;
+//     }
+//     return counter;
+//   }, 0);
+//   return answer;
+// }
+
+// console.log(countOccurrences("w3recources.com", "o"));
