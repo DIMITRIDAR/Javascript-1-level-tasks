@@ -114,12 +114,27 @@
 //Example string: "the quick brown fox".
 //Expected output:"The Quick Brown Fox".
 
+//First way.
+
 // function convertToUpperCase(str) {
 //   let splittedStr = str.split(" ");
-//   for (i = 0; i < splittedStr.length; i++) {
+//   for (let i = 0; i < splittedStr.length; i++) {
 //     splittedStr[i] = splittedStr[i][0].toUpperCase() + splittedStr[i].slice(1);
 //   }
 //   return splittedStr.join(" ");
 // }
 
 // console.log(convertToUpperCase("the quick brown fox"));
+
+// Second way.
+
+// function convertToUpperCase(str) {
+//   return str
+//     .split(" ")
+//     .map((word) => word[0].toUpperCase() + word.slice(1))
+//     .join(" ");
+// }
+// console.log(convertToUpperCase("the quick brown fox"));
+
+//Task 6
+//In this task we have to
