@@ -92,3 +92,18 @@
 // console.log(
 //   Longest_Country_Name(["Australia", "Germany", "United States of America"])
 // );
+
+//Task 4
+//In this task we have to Write a JavaScript function that takes an array of numbers and finds the second lowest and second
+//greatest numbers, respectively.
+//Sample array : [1,2,3,4,5]
+//Expected Output : 2,4
+
+// function findExactArrays(arr) {
+//   let sortedArr = arr.sort((a, b) => a - b);
+//   let secondLowest = sortedArr[1];
+//   let secondGreatest = sortedArr.length - 1;
+//   return [secondLowest, secondGreatest];
+// }
+
+// console.log(findExactArrays([1, 2, 3, 4, 5]));
