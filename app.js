@@ -141,10 +141,29 @@
 //Example string : 'webmaster'.
 //Expected Output : 'abeemrstw'.
 
-function alphabeticalOrder(str) {
-  let sorted = str.toLowerCase().split("").sort().join("");
+// function alphabeticalOrder(str) {
+//   let sorted = str.toLowerCase().split("").sort().join("");
 
-  return sorted;
-}
+//   return sorted;
+// }
 
-console.log(alphabeticalOrder("webmaster"));
+// console.log(alphabeticalOrder("webmaster"));
+
+//Task 7
+//In this task we have to write a JavaScript function that generates all combinations of a string.
+//Example string: "dog".
+//Expected output: "d, do, dog, o, og , g."
+
+// function allCombinations(word) {
+//   let combinations = [];
+//   let length = word.length;
+//   for (let i = 0; i < length; i++) {
+//     for (let j = i; j < length; j++) {
+//       combinations.push(word.slice(i, j + 1));
+//     }
+//   }
+
+//   return combinations.join(" , ");
+// }
+
+// console.log(allCombinations("dog"));
