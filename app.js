@@ -167,3 +167,24 @@
 // }
 
 // console.log(allCombinations("dog"));
+
+//Task 8
+//In this task we have to write a JavaScript function to find the first not repeated character.
+//Sample arguments : "abacddbec".
+//Expected output: "e".
+
+// function notRepeated(str) {
+//   let charCount = [];
+//   for (let i = 0; i < str.length; i++) {
+//     let char = str.charAt(i);
+//     charCount[char] = (charCount[char] || 0) + 1;
+//   }
+//   for (let i = 0; i < str.length; i++) {
+//     let char = str.charAt(i);
+//     if (charCount[char] === 1) {
+//       return char;
+//     }
+//   }
+// }
+
+// console.log(notRepeated("abacddbec"));
