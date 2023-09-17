@@ -174,17 +174,28 @@
 //Expected output: "e".
 
 // function notRepeated(str) {
-//   let charCount = [];
+//   const charFrequency = {};
+
 //   for (let i = 0; i < str.length; i++) {
-//     let char = str.charAt(i);
-//     charCount[char] = (charCount[char] || 0) + 1;
+//     const char = str[i];
+//     // charFrequency[char] = (charFrequency[char] || 0) + 1;
+
+//     if (charFrequency[char]) {
+//       charFrequency[char]++;
+//     } else {
+//       charFrequency[char] = 1;
+//     }
 //   }
-//   for (let i = 0; i < str.length; i++) {
-//     let char = str.charAt(i);
-//     if (charCount[char] === 1) {
+
+//   for (let char in charFrequency) {
+//     if (charFrequency[char] === 1) {
 //       return char;
 //     }
 //   }
+
+//   return charFrequency;
 // }
 
-// console.log(notRepeated("abacddbec"));
+// console.log(notRepeated("abacdddbec"));
+
+//Arrays !!!
