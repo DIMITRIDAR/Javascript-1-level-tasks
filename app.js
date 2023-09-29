@@ -199,3 +199,27 @@
 // console.log(notRepeated("abacdddbec"));
 
 //Arrays !!!
+
+//Task 1
+//In this task we have to Find the Maximum Subarray Sum:
+//Write a function that takes an array of integers as input and finds the contiguous subarray
+//within the array that has the largest sum. Return the sum of that subarray.
+//For example, given the array [-2, 1, -3, 4, -1, 2, 1, -5, 4], the function should return 6,
+// which corresponds to the sum of the subarray [4, -1, 2, 1].
+
+function sumOfSubArray(arr) {
+  let maxSumOfSubArray = -Infinity;
+  for (let i = 0; i < arr.length; i++) {
+    let sum = 0;
+    for (let j = i; j < arr.length; j++) {
+      sum = sum + arr[j];
+      if (sum > maxSumOfSubArray) {
+        maxSumOfSubArray = sum;
+      }
+    }
+  }
+
+  return maxSumOfSubArray;
+}
+
+console.log(sumOfSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4]));
