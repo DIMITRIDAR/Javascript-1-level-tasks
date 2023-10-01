@@ -305,3 +305,31 @@
 // }
 
 // console.log(comparisonStringiFy({ a: 1, b: { c: 2 } }, { a: 1, b: { c: 2 } }));
+
+//JSON.stringify changes arrays and objects into strings, and JSON.parse makes to change string into array or object.
+
+// let obj = {
+//   name: "Bob",
+//   age: 27,
+// };
+
+// console.log(JSON.stringify(obj));   ==> changing object into string
+
+//Task 4
+// Object Prototype Extension: Write a function that extends an object's prototype with additional methods.
+//The additional methods should perform specific operations on the object's properties.
+//For example, extend the Array prototype with a method called sum() that calculates the sum of all elements in the array.
+
+// Array.prototype.sum = function () {
+//   let sum = 0;
+//   for (let i = 0; i < this.length; i++) {
+//     sum = sum + this[i];
+//   }
+
+//   return sum;
+// };
+
+// let numbers = [1, 2, 3, 4, 5];
+// let numbers1 = [3, 4, 5, 6, 7];
+
+// console.log(numbers1.sum());
