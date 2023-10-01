@@ -257,14 +257,43 @@
 //Task 1
 // Object Deep Comparison: Write a function that compares two objects deeply and returns true if they are equal,
 //and false otherwise. The function should handle nested objects and arrays.
-//For example, given the objects { a: 1, b: { c: 2 } } and { a: 1, b: { c: 2 } }, the function should return true.
+//For example, given the objects c, the function should return true.
 
-let obj1 = {
-  name: "temo",
-  age: 18,
-};
+// let obj1 = {
+//   name: "temo",
+//   age: 18,
+// };
 
-let obj2 = {
-  name: "gio",
-  age: 23,
-};
+// let obj2 = {
+//   name: "temo",
+//   age: 18,
+// };
+
+// console.log(obj1 === obj2);
+
+// function comparison(obj1, obj2) {
+//   const entriesObj1 = Object.entries(obj1);
+//   const entriesObj2 = Object.entries(obj2);
+
+//   if (entriesObj1.length !== entriesObj2.length) {
+//     return false;
+//   }
+
+//   for (let i = 0; i < entriesObj1.length; i++) {
+//     const [key1, value1] = entriesObj1[i];
+//     const [key2, value2] = entriesObj2[i];
+
+//     if (key1 !== key2) {
+//       return false;
+//     }
+//     if (typeof value1 === "object" && typeof value2 === "object") {
+//       if (!comparison(value1, value2)) {
+//         return false;
+//       } else if (value1 !== value2) {
+//         return false;
+//       }
+//     }
+//   }
+//   return true;
+// }
+// console.log(comparison({ a: 1, b: { c: 2 } }, { a: 1, b: { c: 2 } }));
