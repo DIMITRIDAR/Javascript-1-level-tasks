@@ -297,3 +297,11 @@
 //   return true;
 // }
 // console.log(comparison({ a: 1, b: { c: 2 } }, { a: 1, b: { c: 2 } }));
+
+//Another way to solve this task
+
+// function comparisonStringiFy(obj1, obj2) {
+//   return JSON.stringify(obj1) === JSON.stringify(obj2);
+// }
+
+// console.log(comparisonStringiFy({ a: 1, b: { c: 2 } }, { a: 1, b: { c: 2 } }));
