@@ -207,19 +207,64 @@
 //For example, given the array [-2, 1, -3, 4, -1, 2, 1, -5, 4], the function should return 6,
 // which corresponds to the sum of the subarray [4, -1, 2, 1].
 
-function sumOfSubArray(arr) {
-  let maxSumOfSubArray = -Infinity;
-  for (let i = 0; i < arr.length; i++) {
-    let sum = 0;
-    for (let j = i; j < arr.length; j++) {
-      sum = sum + arr[j];
-      if (sum > maxSumOfSubArray) {
-        maxSumOfSubArray = sum;
-      }
-    }
-  }
+// function sumOfSubArray(arr) {
+//   let maxSumOfSubArray = -Infinity;
+//   for (let i = 0; i < arr.length; i++) {
+//     let sum = 0;
+//     for (let j = i; j < arr.length; j++) {
+//       sum = sum + arr[j];
+//       if (sum > maxSumOfSubArray) {
+//         maxSumOfSubArray = sum;
+//       }
+//     }
+//   }
 
-  return maxSumOfSubArray;
-}
+//   return maxSumOfSubArray;
+// }
 
-console.log(sumOfSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4]));
+// console.log(sumOfSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4]));
+
+//The second way is Cadane's algorithm
+
+//Task2
+//Rotate Array: Write a function that rotates an array of n elements to the right by k steps.
+//For example, given the array [1, 2, 3, 4, 5, 6, 7] and k = 3,
+//the function should modify the array to become [5, 6, 7, 1, 2, 3, 4].
+
+// function rotate(arr, k) {
+//   for (let i = 0; i < k; i++) {
+//     let poppedItem = arr.pop();
+//     arr.unshift(poppedItem);
+//   }
+
+//   return arr;
+// }
+
+// console.log(rotate([1, 2, 3, 4, 5, 6, 7], 3));
+
+//Task 3
+//In this task we have to Find Missing Number:
+//Given an array containing n distinct numbers taken from 0, 1, 2, ..., n, find the missing number.
+//For example, given the array [3, 0, 1], the function should return 2.
+
+//Task 4
+//In this task we have to write a function that Merge Intervals: Given an array of intervals,
+//merge overlapping intervals and return the resulting merged intervals.
+//For example, given the intervals [[1,3],[2,6],[8,10],[15,18]], the function should return [[1,6],[8,10],[15,18]].
+
+///Objects !!!
+
+//Task 1
+// Object Deep Comparison: Write a function that compares two objects deeply and returns true if they are equal,
+//and false otherwise. The function should handle nested objects and arrays.
+//For example, given the objects { a: 1, b: { c: 2 } } and { a: 1, b: { c: 2 } }, the function should return true.
+
+let obj1 = {
+  name: "temo",
+  age: 18,
+};
+
+let obj2 = {
+  name: "gio",
+  age: 23,
+};
