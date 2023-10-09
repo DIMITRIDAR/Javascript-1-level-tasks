@@ -401,28 +401,31 @@
 //all prime numbers within that range. Use a loop and conditional statements to check if each number
 //is prime and output the prime numbers.
 
-// function isPrime(number) {
-//   for (let i = 2; i <= Math.sqrt(number); i++) {
-//     if (number % i === 0) {
-//       return false;
-//     }
-//   }
+function isPrime(number) {
+  if (number <= 1) {
+    return false;
+  }
+  for (let i = 2; i <= Math.sqrt(number); i++) {
+    if (number % i === 0) {
+      return false;
+    }
+  }
 
-//   return true;
-// }
+  return true;
+}
 
-// function generatePrimeNumber(start, end) {
-//   let primeNumbers = [];
+function generatePrimeNumber(start, end) {
+  let primeNumbers = [];
 
-//   for (let i = start; i <= end; i++) {
-//     if (isPrime(i)) {
-//       primeNumbers.push(i);
-//     }
-//   }
-//   return primeNumbers;
-// }
+  for (let i = start; i <= end; i++) {
+    if (isPrime(i)) {
+      primeNumbers.push(i);
+    }
+  }
+  return primeNumbers;
+}
 
-// console.log(generatePrimeNumber(1, 100));
+console.log(generatePrimeNumber(1, 100));
 
 //Task 5
 //Guessing Game.Write a program that generates a random number between 1 and 100 and lets the user guess the number.
@@ -437,3 +440,7 @@
 //Anagram Checker
 //Write a function that takes two strings as input and determines whether they are anagrams of each other.
 //Anagrams are words or phrases that use the same characters in a different order.
+
+// function isAnagram(str1, str2) {}
+
+// console.log(isAnagram("bitcamp", "tibcamp"));
