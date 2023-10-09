@@ -315,6 +315,18 @@
 
 // console.log(JSON.stringify(obj));   ==> changing object into string
 
+//Task 2
+
+//Object Transformation: Write a function that takes an array of objects and transforms them into a single object.
+//The transformation should use a specific property of each object as the key and another property as the value.
+//For example, given the array [{ id: 1, name: 'Alice' }, { id: 2, name: 'Bob' }], and using the id property as the key
+//and the name property as the value, the function should return { 1: 'Alice', 2: 'Bob' }.
+
+//Task 3
+//Object Serialization: Write a function that serializes an object into a string representation.
+//The serialization should handle nested objects and arrays. For example, given the object { a: 1, b: { c: [2, 3] } },
+//the function should return the string "{ a: 1, b: { c: [2, 3] } }".
+
 //Task 4
 // Object Prototype Extension: Write a function that extends an object's prototype with additional methods.
 //The additional methods should perform specific operations on the object's properties.
@@ -333,3 +345,10 @@
 // let numbers1 = [3, 4, 5, 6, 7];
 
 // console.log(numbers1.sum());
+
+//Task 5
+//Object Inheritance: Implement a class hierarchy using object-oriented programming principles.
+//Create a base class with common properties and methods, and then create child classes that inherit from the base class
+//and add their own specific properties and methods.
+
+//Conditionals/Loops !!!
