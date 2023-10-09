@@ -393,3 +393,13 @@
 //Prime Number Generator.Write a program that prompts the user for a range of numbers and generates
 //all prime numbers within that range. Use a loop and conditional statements to check if each number
 //is prime and output the prime numbers.
+
+function isPrime(number) {
+  for (let i = 0; i < Math.sqrt; i++) {
+    if (number % i === 0) {
+      return false;
+    }
+  }
+
+  return true;
+}
