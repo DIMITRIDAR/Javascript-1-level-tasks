@@ -1,3 +1,4 @@
+//..................................................................
 //Functions !!!
 
 //Task 1
@@ -198,6 +199,8 @@
 
 // console.log(notRepeated("abacdddbec"));
 
+//.........................................................................
+
 //Arrays !!!
 
 //Task 1
@@ -251,6 +254,8 @@
 //In this task we have to write a function that Merge Intervals: Given an array of intervals,
 //merge overlapping intervals and return the resulting merged intervals.
 //For example, given the intervals [[1,3],[2,6],[8,10],[15,18]], the function should return [[1,6],[8,10],[15,18]].
+
+//.........................................................................
 
 ///Objects !!!
 
@@ -351,6 +356,8 @@
 //Create a base class with common properties and methods, and then create child classes that inherit from the base class
 //and add their own specific properties and methods.
 
+//.....................................................
+
 //Conditionals/Loops !!!
 
 //Task 1
@@ -416,3 +423,17 @@
 // }
 
 // console.log(generatePrimeNumber(1, 100));
+
+//Task 5
+//Guessing Game.Write a program that generates a random number between 1 and 100 and lets the user guess the number.
+//Provide feedback to the user, indicating whether the guessed number is too high or too low. Use a loop and conditional
+//statements to implement the game, allowing the user to keep guessing until they guess the correct number.
+
+//.............................................
+
+//Algorithms !!!
+
+//Task1
+//Anagram Checker
+//Write a function that takes two strings as input and determines whether they are anagrams of each other.
+//Anagrams are words or phrases that use the same characters in a different order.
