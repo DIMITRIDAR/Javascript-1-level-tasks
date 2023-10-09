@@ -352,3 +352,13 @@
 //and add their own specific properties and methods.
 
 //Conditionals/Loops !!!
+
+//Task 1
+//Palindrome Checker.Write a program that prompts the user for a string and checks if it is a palindrome.
+//A palindrome is a word, phrase, number, or other sequence of characters that reads the same backward as forward.
+//Ignore spaces, punctuation, and letter casing. Use conditional statements and loops to implement this behavior.
+
+//Task 2
+//Fibonacci Sequence. Write a program that prompts the user for a number and generates the Fibonacci sequence up
+//to that number. The Fibonacci sequence is a series of numbers in which each number is the sum of the two preceding ones.
+//Use a loop and conditional statements to generate the sequence.
