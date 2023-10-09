@@ -394,12 +394,25 @@
 //all prime numbers within that range. Use a loop and conditional statements to check if each number
 //is prime and output the prime numbers.
 
-function isPrime(number) {
-  for (let i = 0; i < Math.sqrt; i++) {
-    if (number % i === 0) {
-      return false;
-    }
-  }
+// function isPrime(number) {
+//   for (let i = 2; i <= Math.sqrt(number); i++) {
+//     if (number % i === 0) {
+//       return false;
+//     }
+//   }
 
-  return true;
-}
+//   return true;
+// }
+
+// function generatePrimeNumber(start, end) {
+//   let primeNumbers = [];
+
+//   for (let i = start; i <= end; i++) {
+//     if (isPrime(i)) {
+//       primeNumbers.push(i);
+//     }
+//   }
+//   return primeNumbers;
+// }
+
+// console.log(generatePrimeNumber(1, 100));
