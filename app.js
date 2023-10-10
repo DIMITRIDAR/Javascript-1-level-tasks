@@ -480,4 +480,6 @@
 //   return [...new Set(arr)];
 // }    ---> first way of solving
 
-console.log(removeDuplicates([1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 7, 7, 7]));
+// let removeDuplicates = (arr) => [...new Set(arr)]; --> second way to solve this task
+
+// console.log(removeDuplicates([1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 7, 7, 7]));
