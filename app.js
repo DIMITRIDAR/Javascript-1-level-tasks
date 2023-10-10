@@ -483,3 +483,20 @@
 // let removeDuplicates = (arr) => [...new Set(arr)]; --> second way to solve this task
 
 // console.log(removeDuplicates([1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 7, 7, 7]));
+
+//Task 6
+//Palindrome Checker. Write a function that takes a string as input and determines whether
+//it is a palindrome. Consider letters and digits only, ignoring spaces, punctuation, and letter casing.
+
+//Task 7
+//Largest Sum Subarray. Write a function that takes an array of numbers as input and finds the contiguous
+//subarray with the largest sum. Return the sum of that subarray.
+
+//Task 8
+//Missing Number. Write a function that takes an array of numbers from 1 to n,
+//with one number missing, and returns the missing number.
+
+//Task 9
+//Deep Clone. Write a function that performs a deep clone of an object.
+//The function should create a new object with the same structure and values as the original,
+//without any reference to the original object.
