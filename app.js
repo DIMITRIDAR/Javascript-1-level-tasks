@@ -456,3 +456,21 @@
 // }
 
 // console.log(isAnagram("bi  tc amp", "t   ibcamp"));
+
+//Task 2
+//Prime Number Generator.Write a function that takes a range of numbers as input and returns an array containing
+//all prime numbers within that range.
+
+//Task 3
+//Sorting Algorithms.Implement sorting algorithms such as Bubble Sort, Insertion Sort,
+//or Quick Sort. Write functions that take an array of numbers as input and sort the array in ascending order
+//using the chosen algorithm.
+
+//Task 4
+// Binary Search. Write a function that takes a sorted array of numbers and a target number
+//as input and performs a binary search to determine if the target number exists in the array.
+// Return true if found, and false otherwise.
+
+//Task 5
+//Unique Elements. Write a function that takes an array of numbers as input and returns a new array containing
+//only the unique elements of the original array. Remove any duplicate numbers.
