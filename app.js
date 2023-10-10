@@ -500,3 +500,27 @@
 //Deep Clone. Write a function that performs a deep clone of an object.
 //The function should create a new object with the same structure and values as the original,
 //without any reference to the original object.
+
+// function deepClone(obj) {
+//   let cloneObj = { ...obj };
+//   return cloneObj;
+// }
+
+// console.log(deepClone({ name: "Dima", age: 27 }));
+
+// let obj1 = { name: "Dima", age: 27 };
+// let obj2 = { ...obj1 };
+// obj2.name = "gio";
+// console.log(obj1);
+// console.log(obj2); //---- klonireba ase ar sheidzleba, vinaidan ertidaigive mexsierebis ubans uyurebs orive obj
+
+// let arr1=[1,2,3];
+// let arr2=[...arr1] spread operatorit xdeba masivebis klonireba ise, rom mexsierebis ertidaigive ubans ar uyurebdnen
+
+//Meore xerxi
+
+// function deepClone(obj) {
+//   return JSON.parse(JSON.stringify(obj)); //JSON.stringify obieqts aqcevs masivad, JSON.parse piriqit - strings ukan obieqtad gadaaqcevs
+// }
+
+// console.log(deepClone({ name: "Dima", age: 27 }));
